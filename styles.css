@@ -75,15 +75,28 @@ body {
     }
 }
 
+.men {
+    display: flex;
+    /* align-items: center;
+    justify-content: center */
+}
 
-/* .product {
-    background-color: black;
-    border-radius: 7px;
-    margin: 5px auto;
-} */
+.menimg {
+    flex: 1;
+    /* flex-basis: 40% */
+}
 
+.text {
+    text-align: justify;
+    color: white;
+    flex: 1;
+    /* font-size: 20px; */
+    /* padding-left: 20px; */
+}
 
-/* .blossh-white:hover {
-    height: 500px;
-    width: 50px;
-} */
+.content {
+    margin: 10px;
+    width: 30%;
+    border: 1px solid transparent;
+    transition: all 200ms ease-out;
+}
