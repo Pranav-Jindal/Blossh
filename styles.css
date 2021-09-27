@@ -103,3 +103,21 @@ body {
     border: 1px solid transparent;
     transition: all 200ms ease-out;
 }
+
+.ContentAboutUs {
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    padding: 15px;
+}
+
+hr {
+    color: aliceblue!important;
+    border: 2px solid white!important;
+}
+
+.AboutUs {
+    text-align: center;
+    color: cornsilk;
+    font-size: 30px;
+}
