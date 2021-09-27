@@ -75,28 +75,31 @@ body {
     }
 }
 
-.men {
+.men,
+.women {
+    margin: 15px 0;
     display: flex;
-    /* align-items: center;
-    justify-content: center */
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
 }
 
 .menimg {
-    flex: 1;
-    /* flex-basis: 40% */
+    flex-basis: 40%
 }
 
 .text {
     text-align: justify;
     color: white;
-    flex: 1;
+    padding-left: 2px;
+    margin-right: 7px;
     /* font-size: 20px; */
     /* padding-left: 20px; */
 }
 
 .content {
-    margin: 10px;
-    width: 30%;
+    margin: 5px;
+    width: 100%;
     border: 1px solid transparent;
     transition: all 200ms ease-out;
 }
