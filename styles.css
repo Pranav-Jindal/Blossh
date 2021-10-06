@@ -104,12 +104,20 @@ body {
     transition: all 200ms ease-out;
 }
 
-.ContentAboutUs {
+.ContentAboutUs,
+.ContactDetail {
     color: white;
     font-size: 15px;
     text-align: justify;
     padding: 15px;
 }
+
+.ContactDetail {
+    font-size: 25px;
+    font-weight: 500;
+    color: crimson;
+}
+
 
 hr {
     color: aliceblue!important;
